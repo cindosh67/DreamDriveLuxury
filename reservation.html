@@ -24,20 +24,40 @@
                     <a href="#">Marques de véhicules</a>
                     <div class="dropdown-content">
                         <a href="porsche.html">Porsche</a>
-                        <!-- Ajoutez d'autres marques au besoin -->
+                        <!-- Ajoutez d'autres marques -->
                     </div>
                 </li>
-                <li><a href="reservation.html">Réservez</a></li>
+                <li><a href="">Réserver</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="about.html">À propos</a></li>
             </ul>
         </nav>
     </header>
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Pour toute question, n'hésitez pas à nous contacter :</p>
-    <p>Email: contact@luxeride.com</p>
-    <p>Téléphone: +1 123 456 7890</p>
+<section id="reservation">
+    <h2> Demande de réservation pour votre voiture de luxe</h2>
+    <form action="#" method="post">
+        <label for="carModel">Modèle de voiture :</label>
+        <input type="text" id="carModel" name="carModel" required>
+
+        <label for="pickupDate">Date de prise en charge :</label>
+        <input type="date" id="pickupDate" name="pickupDate" required>
+
+        <label for="returnDate">Date de retour :</label>
+        <input type="date" id="returnDate" name="returnDate" required>
+
+        <label for="name">Nom complet :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Adresse e-mail :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Numéro de téléphone :</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <button type="submit">Envoyer votre demande</button> 
+        <br/>
+    </form>
+    <p> Une fois votre demande reçu nous la traiterons au plus vite, afin de revenir vers vous avec les meilleurs tarifs</n> pour la suite des demarches </p>
 </section>
 <footer>
     <p>&copy; 2024 DreamDrive Luxury. Tous droits réservés.</p>
