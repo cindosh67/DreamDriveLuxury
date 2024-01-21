@@ -117,37 +117,6 @@ section a {
     color: #333;
 }
 
-/* RESERVATION FORMULAIRE */
-
-#reservation {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-form {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-}
-
-label {
-    margin-top: 10px;
-    display: block;
-    font-weight: bold;
-}
-
-select,
-input {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
 button {
     background-color: #333;
     color: #fff;
