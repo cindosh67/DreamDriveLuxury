@@ -95,13 +95,14 @@ section a {
     margin: 0px;
 }
 .intro-img{
-    position: relative;
+    /* position: relative; */
+    /* background-size: cover; */
     background-size: cover;
     object-fit: cover;
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-position: center;
-    background-position-y: -195px;
+    /* background-position-y: -195px; */
     border-radius: 10px;
     background-repeat: no-repeat;
 
