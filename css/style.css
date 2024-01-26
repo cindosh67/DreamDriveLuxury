@@ -23,6 +23,7 @@ p{
 a{
     text-decoration: none;
     color: #666;
+    font-size: 20px;
 }
 a:hover {
     text-decoration: underline;
@@ -66,7 +67,7 @@ nav ul li {
 nav ul li a{
     font-family: 'Roboto';
     color: #333;
-    font-size: large;
+    /*font-size: large;*/
     text-decoration: none;
 }
 
@@ -105,6 +106,10 @@ section a {
     max-width: 100%;
     margin-top: 0;
     position: relative;
+}
+
+#intro h1{
+    font-size: 3.5em;
 }
 
 .intro-img {
