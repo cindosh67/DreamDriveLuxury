@@ -1,5 +1,6 @@
 /* CARD CARS */
 
+
 #cars {
     display: flex;
     justify-content: space-around;
@@ -39,4 +40,10 @@ button a{
 
 button:hover {
     background-color: #555;
+}
+
+.carDetailContainer {
+    display: none;
+    transition: max-height 0.3s ease;
+    padding: 20px;
 }

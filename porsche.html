@@ -41,22 +41,9 @@
         <article class="car">
             <img src="image/Capture d'écran 2024-01-03 160047.png" alt="Voiture de luxe 1">
             <h2>Modèle 1</h2>
-            <p>Description détaillée de la voiture de luxe.</p>
-            <button>Voir les détails</button>
-        </article>
-        <article class="car">
-            <img src="image/porsche1.jpeg" alt="Voiture de luxe 2">
-            <h2>Modèle 2</h2>
-            <p>Description détaillée de la voiture de luxe.</p>
-            <button>Voir les détails</button> <!-- VOIR AVEC JAVASCRIPT avec l'écoute sur le bouton -->
-        </article>
-        <article class="car">
-            <img src="image/porsche2.jpeg" alt="Voiture de luxe 2">
-            <h2>Modèle 3</h2>
-            <p>Description détaillée de la voiture de luxe.</p>
-            <button id="detail">Voir les détails</button> <!-- VOIR AVEC JAVASCRIPT avec l'écoute sur le bouton -->
-            <div id="carDetailContainer">
-                <p>Modèle 3 
+            <button onclick="toggleDetails(this)">Voir les détails</button> <!-- VOIR AVEC JAVASCRIPT avec l'écoute sur le bouton -->
+            <div class="carDetailContainer">
+                <p>Modèle 1 
                     Combiné d’instruments.
                     Typiquement Porsche, orienté sur le conducteur et adoptant le style du nouveau 
                     Porsche Driver Experience : le combiné d’instruments numérique possède un écran 
@@ -78,34 +65,56 @@
             </div>
         </article>
         <article class="car">
-            <img src="image/porsche3.jpeg" alt="Voiture de luxe 2">
-            <h2>Modèle 2</h2>
-            <p>Description détaillée de la voiture de luxe.</p>
-            <button>Voir les détails</button> <!-- VOIR AVEC JAVASCRIPT avec l'écoute sur le bouton -->
-        </article>
-        <article class="car">
-            <img src="image/Capture d'écran 2024-01-03 160047.png" alt="Voiture de luxe 1">
-            <h2>Modèle 1</h2>
-            <p>Description détaillée de la voiture de luxe.</p>
-            <button>Voir les détails</button>
-        </article>
-        <article class="car">
             <img src="image/porsche1.jpeg" alt="Voiture de luxe 2">
             <h2>Modèle 2</h2>
-            <p>Description détaillée de la voiture de luxe.</p>
-            <button>Voir les détails</button> <!-- VOIR AVEC JAVASCRIPT avec l'écoute sur le bouton -->
+            <button onclick="toggleDetails(this)">Voir les détails</button> <!-- VOIR AVEC JAVASCRIPT avec l'écoute sur le bouton -->
+            <div class="carDetailContainer">
+                <p>Modèle 2
+                    Combiné d’instruments.
+                    Typiquement Porsche, orienté sur le conducteur et adoptant le style du nouveau 
+                    Porsche Driver Experience : le combiné d’instruments numérique possède un écran 
+                    incurvé de 12,65 pouces, et ses affichages sont regroupés dans le champ de vision 
+                    du conducteur. Différentes apparences d’affichage peuvent être sélectionnées : 
+                    instruments ronds typiques, extrait de carte dans l’instrument rond central, 
+                    carte de navigation sur toute la surface, vue réduite et vue optionnelle avec 
+                    assistance à la vision nocturne au centre.</br>
+                    Écran passager.
+                    Si le combiné d’instruments et l’écran central sont conçus sur mesure pour le 
+                    conducteur, l’écran tactile de 10,9 pouces en option se trouve du côté passager. 
+                    Il permet entre autres d’accéder aux fonctions de navigation et 
+                    d’infodivertissement. L’aide à la planification d’itinéraire est possible, 
+                    tout comme l’affichage d’un aperçu des données du combiné d’instruments. 
+                    Avec le service In-Car Video en option, la diffusion en streaming de vidéos sur 
+                    l’écran passager est possible pendant la conduite, et visible uniquement par le 
+                    passager avant.
+                </p>
+            </div>
         </article>
         <article class="car">
             <img src="image/porsche2.jpeg" alt="Voiture de luxe 2">
             <h2>Modèle 3</h2>
-            <p>Description détaillée de la voiture de luxe.</p>
-            <button>Voir les détails</button> <!-- VOIR AVEC JAVASCRIPT avec l'écoute sur le bouton -->
-        </article>
-        <article class="car">
-            <img src="image/porsche3.jpeg" alt="Voiture de luxe 2">
-            <h2>Modèle 2</h2>
-            <p>Description détaillée de la voiture de luxe.</p>
-            <button>Voir les détails</button> <!-- VOIR AVEC JAVASCRIPT avec l'écoute sur le bouton -->
+            <button onclick="toggleDetails(this)">Voir les détails</button> <!-- VOIR AVEC JAVASCRIPT avec l'écoute sur le bouton -->
+            <div class="carDetailContainer">
+                <p>Modèle 3 
+                    Combiné d’instruments.
+                    Typiquement Porsche, orienté sur le conducteur et adoptant le style du nouveau 
+                    Porsche Driver Experience : le combiné d’instruments numérique possède un écran 
+                    incurvé de 12,65 pouces, et ses affichages sont regroupés dans le champ de vision 
+                    du conducteur. Différentes apparences d’affichage peuvent être sélectionnées : 
+                    instruments ronds typiques, extrait de carte dans l’instrument rond central, 
+                    carte de navigation sur toute la surface, vue réduite et vue optionnelle avec 
+                    assistance à la vision nocturne au centre.</br>
+                    Écran passager.
+                    Si le combiné d’instruments et l’écran central sont conçus sur mesure pour le 
+                    conducteur, l’écran tactile de 10,9 pouces en option se trouve du côté passager. 
+                    Il permet entre autres d’accéder aux fonctions de navigation et 
+                    d’infodivertissement. L’aide à la planification d’itinéraire est possible, 
+                    tout comme l’affichage d’un aperçu des données du combiné d’instruments. 
+                    Avec le service In-Car Video en option, la diffusion en streaming de vidéos sur 
+                    l’écran passager est possible pendant la conduite, et visible uniquement par le 
+                    passager avant.
+                </p>
+            </div>
         </article>
     </section>
     <footer>
@@ -113,7 +122,7 @@
             <a href="information-légales.html">Information légales</a>
         </p>
     </footer>
-    <script src="../js/script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
